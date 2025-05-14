@@ -150,14 +150,16 @@ section {
     padding: 20px;
     background: white;
     border-radius: var(--border-radius);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .menu-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    border-color: rgba(74, 144, 226, 0.3);
 }
 
 .menu-item img {
@@ -184,13 +186,16 @@ section {
     padding: 15px;
     background: white;
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .story-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    border-color: rgba(74, 144, 226, 0.3);
 }
 
 .story-card img {
@@ -229,13 +234,16 @@ section {
     padding: 15px;
     background: white;
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .game-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    border-color: rgba(74, 144, 226, 0.3);
 }
 
 .game-card img {
@@ -318,15 +326,26 @@ section {
     background-color: var(--primary-color);
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: var(--border-radius-sm);
+    padding: 12px 24px;
+    border-radius: 25px;
     cursor: pointer;
     font-size: var(--font-sm);
-    transition: background-color 0.3s ease;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
+    position: relative;
+    overflow: hidden;
 }
 
 .primary-button:hover {
     background-color: #3a7bc0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(74, 144, 226, 0.4);
+}
+
+.primary-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(74, 144, 226, 0.4);
 }
 
 .ai-feedback {
