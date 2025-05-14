@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="150" fill="#FFEBEE" />
+  
+  <!-- Test paper -->
+  <rect x="60" y="30" width="80" height="100" fill="#FFF" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="70" y1="50" x2="130" y2="50" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="70" y1="70" x2="130" y2="70" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="70" y1="90" x2="130" y2="90" stroke="#BDBDBD" stroke-width="1" />
+  
+  <!-- Grade -->
+  <circle cx="110" cy="35" r="15" fill="#EF5350" />
+  <text x="110" y="40" font-family="Arial" font-size="15" font-weight="bold" fill="#FFF" text-anchor="middle">D</text>
+  
+  <!-- Sad face -->
+  <circle cx="150" cy="100" r="20" fill="#FFF" stroke="#BDBDBD" stroke-width="1" />
+  <circle cx="143" cy="95" r="2" fill="#333" /> <!-- Left eye -->
+  <circle cx="157" cy="95" r="2" fill="#333" /> <!-- Right eye -->
+  <path d="M140,110 Q150,105 160,110" fill="none" stroke="#333" stroke-width="1.5" /> <!-- Sad mouth -->
+  
+  <text x="100" y="140" font-family="'Noto Sans KR', sans-serif" font-size="12" text-anchor="middle" fill="#333">시험 결과</text>
+</svg> 

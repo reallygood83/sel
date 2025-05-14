@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="180" viewBox="0 0 150 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Character base -->
+  <circle cx="75" cy="70" r="50" fill="#4FC3F7" />
+  
+  <!-- Face -->
+  <circle cx="75" cy="70" r="40" fill="#FFF" />
+  
+  <!-- Eyes -->
+  <circle cx="60" cy="60" r="8" fill="#FFF" stroke="#333" stroke-width="1" />
+  <circle cx="90" cy="60" r="8" fill="#FFF" stroke="#333" stroke-width="1" />
+  <circle cx="60" cy="60" r="4" fill="#333" />
+  <circle cx="90" cy="60" r="4" fill="#333" />
+  <circle cx="63" cy="57" r="2" fill="#FFF" />
+  <circle cx="93" cy="57" r="2" fill="#FFF" />
+  
+  <!-- Smile -->
+  <path d="M55,80 Q75,95 95,80" fill="none" stroke="#333" stroke-width="2" />
+  
+  <!-- Cheeks -->
+  <circle cx="50" cy="75" r="5" fill="#FFCDD2" opacity="0.7" />
+  <circle cx="100" cy="75" r="5" fill="#FFCDD2" opacity="0.7" />
+  
+  <!-- Heart accessory -->
+  <path d="M75,30 Q85,20 95,30 T75,50 Q65,40 55,30 T75,30" fill="#F06292" />
+  
+  <!-- Antenna -->
+  <line x1="75" y1="20" x2="75" y2="35" stroke="#333" stroke-width="2" />
+  <circle cx="75" cy="15" r="6" fill="#FFCA28" />
+  
+  <!-- Arms -->
+  <path d="M40,85 C30,95 25,110 35,120" fill="none" stroke="#4FC3F7" stroke-width="10" stroke-linecap="round" />
+  <path d="M110,85 C120,95 125,110 115,120" fill="none" stroke="#4FC3F7" stroke-width="10" stroke-linecap="round" />
+  
+  <!-- Text -->
+  <text x="75" y="160" font-family="'Noto Sans KR', sans-serif" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">마음이</text>
+</svg> 

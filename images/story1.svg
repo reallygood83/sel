@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="150" fill="#E3F2FD" />
+  
+  <!-- Two kids and toy -->
+  <circle cx="70" cy="50" r="20" fill="#FFD54F" /> <!-- First kid head -->
+  <circle cx="130" cy="50" r="20" fill="#FFB74D" /> <!-- Second kid head -->
+  
+  <rect x="60" y="70" width="20" height="40" rx="5" fill="#81C784" /> <!-- First kid body -->
+  <rect x="120" y="70" width="20" height="40" rx="5" fill="#4FC3F7" /> <!-- Second kid body -->
+  
+  <circle cx="100" cy="100" r="15" fill="#EF5350" /> <!-- Toy -->
+  
+  <line x1="80" y1="90" x2="100" y2="100" stroke="#000" stroke-width="2" /> <!-- First kid arm -->
+  <line x1="120" y1="90" x2="100" y2="100" stroke="#000" stroke-width="2" /> <!-- Second kid arm -->
+  
+  <!-- Question mark thought bubble -->
+  <path d="M60,30 Q50,20 60,10 L80,10 Q90,20 80,30 Z" fill="#FFF" stroke="#9E9E9E" stroke-width="1" />
+  <text x="70" y="25" font-family="Arial" font-size="20" fill="#9E9E9E" text-anchor="middle">?</text>
+  
+  <text x="100" y="140" font-family="'Noto Sans KR', sans-serif" font-size="12" text-anchor="middle" fill="#333">친구의 물건</text>
+</svg> 

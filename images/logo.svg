@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#4a86e8" />
+  
+  <!-- Inner circle -->
+  <circle cx="100" cy="100" r="75" fill="#ffffff" />
+  
+  <!-- Brain icon -->
+  <path d="M140,100 C140,75 125,60 100,60 C75,60 60,75 60,100 C60,125 75,140 100,140 C125,140 140,125 140,100 Z" 
+        fill="none" stroke="#4a86e8" stroke-width="5" />
+  
+  <!-- Brain details -->
+  <path d="M90,80 Q100,70 110,80 Q120,90 110,100 Q100,110 90,100 Q80,90 90,80" 
+        fill="none" stroke="#4a86e8" stroke-width="3" />
+  <path d="M90,100 Q100,90 110,100 Q120,110 110,120 Q100,130 90,120 Q80,110 90,100" 
+        fill="none" stroke="#4a86e8" stroke-width="3" />
+  
+  <!-- Heart in the center -->
+  <path d="M100,110 Q110,100 120,110 T100,130 Q90,120 80,110 T100,110" 
+        fill="#ff7675" stroke="#ff7675" stroke-width="1" />
+        
+  <!-- Stars for thoughts/ideas -->
+  <circle cx="70" cy="75" r="3" fill="#ffc107" />
+  <circle cx="130" cy="75" r="3" fill="#ffc107" />
+  <circle cx="65" cy="120" r="3" fill="#ffc107" />
+  <circle cx="135" cy="120" r="3" fill="#ffc107" />
+  <circle cx="100" cy="65" r="3" fill="#ffc107" />
+  <circle cx="100" cy="135" r="3" fill="#ffc107" />
+  
+  <!-- Korean character for mind/heart (마음) simplified -->
+  <text x="100" y="155" font-family="'Noto Sans KR', sans-serif" font-size="18" text-anchor="middle" fill="#4a86e8" font-weight="bold">마음 탐험대</text>
+</svg> 

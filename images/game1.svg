@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="150" fill="#FFF3E0" />
+  
+  <!-- Binoculars -->
+  <circle cx="80" cy="70" r="25" fill="#FFF" stroke="#795548" stroke-width="3" />
+  <circle cx="120" cy="70" r="25" fill="#FFF" stroke="#795548" stroke-width="3" />
+  <rect x="80" y="45" width="40" height="15" fill="#795548" />
+  <rect x="60" y="70" width="20" height="10" fill="#795548" />
+  <rect x="120" y="70" width="20" height="10" fill="#795548" />
+  
+  <!-- Treasure map elements -->
+  <path d="M20,20 L40,40 L50,30 L70,60 L90,40 L120,80 L150,30 L180,60" fill="none" stroke="#FF9800" stroke-width="2" stroke-dasharray="5,5" />
+  <circle cx="180" cy="60" r="10" fill="#FFCA28" stroke="#FF6F00" stroke-width="2" />
+  <path d="M175,60 L185,60 M180,55 L180,65" stroke="#FF6F00" stroke-width="2" />
+  
+  <!-- Plus and minus symbols for finding balanced view -->
+  <circle cx="50" cy="110" r="15" fill="#4CAF50" />
+  <path d="M43,110 L57,110 M50,103 L50,117" stroke="#FFF" stroke-width="2" />
+  
+  <circle cx="150" cy="110" r="15" fill="#F44336" />
+  <path d="M143,110 L157,110" stroke="#FFF" stroke-width="2" />
+  
+  <text x="100" y="140" font-family="'Noto Sans KR', sans-serif" font-size="12" text-anchor="middle" fill="#333">쌍안경 생각</text>
+</svg> 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG to PNG Converter</title>
+</head>
+<body>
+    <h1>SVG to PNG Converter</h1>
+    
+    <!-- Load the SVG -->
+    <div id="svg-container"></div>
+    
+    <!-- Canvas for conversion -->
+    <canvas id="canvas" width="200" height="200" style="display:none;"></canvas>
+    
+    <script>
+        // Load the SVG content
+        fetch('images/logo.svg')
+            .then(response => response.text())
+            .then(svgContent => {
+                // Display SVG
+                document.getElementById('svg-container').innerHTML = svgContent;
+                
+                // Convert to PNG
+                const svgElement = document.querySelector('svg');
+                const canvas = document.getElementById('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                // Create a data URL from SVG
+                const svgBlob = new Blob([svgContent], {type: 'image/svg+xml'});
+                const url = URL.createObjectURL(svgBlob);
+                
+                // Load the image and draw to canvas
+                const img = new Image();
+                img.onload = function() {
+                    ctx.drawImage(img, 0, 0);
+                    
+                    // Convert canvas to PNG and download
+                    const pngUrl = canvas.toDataURL('image/png');
+                    const downloadLink = document.createElement('a');
+                    downloadLink.href = pngUrl;
+                    downloadLink.download = 'logo.png';
+                    downloadLink.textContent = 'Download PNG';
+                    document.body.appendChild(downloadLink);
+                    
+                    // Auto download
+                    downloadLink.click();
+                };
+                img.src = url;
+            });
+    </script>
+</body>
+</html> 

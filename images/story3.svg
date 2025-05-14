@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="150" fill="#E8F5E9" />
+  
+  <!-- Teacher -->
+  <circle cx="60" cy="50" r="25" fill="#81C784" /> <!-- Teacher head -->
+  <rect x="50" y="75" width="20" height="50" rx="5" fill="#388E3C" /> <!-- Teacher body -->
+  
+  <!-- Student -->
+  <circle cx="140" cy="60" r="20" fill="#FFF" stroke="#4CAF50" stroke-width="2" /> <!-- Student head -->
+  <rect x="130" y="80" width="20" height="40" rx="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" /> <!-- Student body -->
+  
+  <!-- Thumbs up -->
+  <path d="M40,90 L55,90 L55,110 L40,110 Z" fill="#FFCC80" stroke="#FF9800" stroke-width="1" />
+  <path d="M55,90 Q75,75 70,95 L70,105 L55,105 Z" fill="#FFCC80" stroke="#FF9800" stroke-width="1" />
+  
+  <!-- Star/badge -->
+  <path d="M100,40 L105,50 L115,52 L107,60 L109,70 L100,65 L91,70 L93,60 L85,52 L95,50 Z" fill="#FFD54F" stroke="#FFA000" stroke-width="1" />
+  
+  <!-- Confused expression -->
+  <circle cx="135" cy="55" r="2" fill="#333" /> <!-- Left eye -->
+  <circle cx="145" cy="55" r="2" fill="#333" /> <!-- Right eye -->
+  <path d="M135,70 Q140,67 145,70" fill="none" stroke="#333" stroke-width="1" /> <!-- Slightly confused mouth -->
+  <path d="M155,40 C165,25 170,45 155,45" fill="none" stroke="#333" stroke-width="1" /> <!-- Question mark -->
+  <circle cx="155" cy="50" r="1.5" fill="#333" /> <!-- Question mark dot -->
+  
+  <text x="100" y="140" font-family="'Noto Sans KR', sans-serif" font-size="12" text-anchor="middle" fill="#333">선생님의 칭찬</text>
+</svg> 
