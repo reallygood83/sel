@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마음 탐험대: 생각, 감정, 행동의 비밀을 찾아서</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="마음 탐험대 로고" id="logo-img">
+                <h1>마음 탐험대</h1>
+                <h2>생각, 감정, 행동의 비밀을 찾아서</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" id="story-nav" class="active">출동! 마음 탐험대</a></li>
+                    <li><a href="#" id="game-nav">생각 함정 탈출 게임</a></li>
+                    <li><a href="#" id="journal-nav">마음 일기장</a></li>
+                    <li><a href="#" id="profile-nav">나의 마음 성장 앨범</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Welcome section -->
+            <section id="welcome-section" class="active-section">
+                <div class="welcome-content">
+                    <h2>안녕! 마음 탐험대에 온 걸 환영해!</h2>
+                    <p>여기서는 네 마음속 생각과 감정, 그리고 행동에 대해 재미있게 알아볼 거야!</p>
+                    <p>무엇을 먼저 해볼까?</p>
+                    
+                    <div class="main-menu">
+                        <div class="menu-item" id="start-story">
+                            <img src="images/story-icon.png" alt="스토리 아이콘">
+                            <h3>출동! 마음 탐험대</h3>
+                            <p>다양한 상황 속에서 생각과 감정, 행동을 탐험해요</p>
+                        </div>
+                        <div class="menu-item" id="start-game">
+                            <img src="images/game-icon.png" alt="게임 아이콘">
+                            <h3>생각 함정 탈출 게임</h3>
+                            <p>생각의 함정을 발견하고 탈출하는 방법을 배워요</p>
+                        </div>
+                        <div class="menu-item" id="start-journal">
+                            <img src="images/journal-icon.png" alt="일기장 아이콘">
+                            <h3>마음 일기장</h3>
+                            <p>나의 생각과 감정을 기록하고 건강한 생각을 심어요</p>
+                        </div>
+                        <div class="menu-item" id="start-profile">
+                            <img src="images/profile-icon.png" alt="성장 앨범 아이콘">
+                            <h3>나의 마음 성장 앨범</h3>
+                            <p>나의 마음 성장 과정을 확인해요</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Story Section -->
+            <section id="story-section" class="hidden-section">
+                <div class="story-container">
+                    <h2>출동! 마음 탐험대</h2>
+                    <div class="story-selection">
+                        <div class="story-card" id="story-1">
+                            <img src="images/story1.png" alt="친구 관계 이야기">
+                            <h3>친구의 물건</h3>
+                            <p>친구가 내 물건을 허락 없이 만졌을 때...</p>
+                        </div>
+                        <div class="story-card" id="story-2">
+                            <img src="images/story2.png" alt="시험 결과 이야기">
+                            <h3>시험 결과</h3>
+                            <p>시험을 생각보다 못 봤을 때...</p>
+                        </div>
+                        <div class="story-card" id="story-3">
+                            <img src="images/story3.png" alt="칭찬 받는 이야기">
+                            <h3>선생님의 칭찬</h3>
+                            <p>칭찬을 받았는데 어색할 때...</p>
+                        </div>
+                    </div>
+                    <div class="story-content" id="story-content">
+                        <!-- Story content will be loaded here -->
+                        <p>이야기를 선택해주세요!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Game Section -->
+            <section id="game-section" class="hidden-section">
+                <div class="game-container">
+                    <h2>생각 함정 탈출 게임</h2>
+                    <div class="game-selection">
+                        <div class="game-card" id="game-1">
+                            <img src="images/game1.png" alt="쌍안경 생각 게임">
+                            <h3>쌍안경 생각</h3>
+                            <p>좋은 점과 아쉬운 점을 균형 있게 찾는 보물찾기 게임</p>
+                        </div>
+                        <div class="game-card" id="game-2">
+                            <img src="images/game2.png" alt="흑백 생각 게임">
+                            <h3>흑백 생각</h3>
+                            <p>다양한 중간 생각으로 무지개 다리를 완성하는 게임</p>
+                        </div>
+                        <div class="game-card" id="game-3">
+                            <img src="images/game3.png" alt="먹구름 생각 게임">
+                            <h3>먹구름 생각</h3>
+                            <p>먹구름 뒤에 숨겨진 햇살을 찾는 게임</p>
+                        </div>
+                    </div>
+                    <div class="game-content" id="game-content">
+                        <!-- Game content will be loaded here -->
+                        <p>게임을 선택해주세요!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Journal Section -->
+            <section id="journal-section" class="hidden-section">
+                <div class="journal-container">
+                    <h2>마음 일기장</h2>
+                    <div class="journal-form">
+                        <div class="form-group">
+                            <label for="journal-date">날짜</label>
+                            <input type="date" id="journal-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="journal-situation">어떤 일이 있었나요?</label>
+                            <textarea id="journal-situation" placeholder="오늘 있었던 일을 적어보세요..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>그때 느낀 감정은?</label>
+                            <div class="emotion-selector">
+                                <div class="emotion" data-emotion="happy">😊</div>
+                                <div class="emotion" data-emotion="sad">😢</div>
+                                <div class="emotion" data-emotion="angry">😡</div>
+                                <div class="emotion" data-emotion="surprised">😲</div>
+                                <div class="emotion" data-emotion="worried">😟</div>
+                                <div class="emotion" data-emotion="proud">😎</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="journal-thought">그때 든 생각은?</label>
+                            <textarea id="journal-thought" placeholder="어떤 생각이 들었나요?"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="journal-action">어떻게 행동했나요?</label>
+                            <textarea id="journal-action" placeholder="어떻게 행동했는지 적어보세요..."></textarea>
+                        </div>
+                        <button id="save-journal" class="primary-button">저장하기</button>
+                    </div>
+                    <div class="ai-feedback" id="ai-feedback">
+                        <!-- AI feedback will be shown here -->
+                    </div>
+                    <div class="journal-list">
+                        <h3>내 일기 목록</h3>
+                        <ul id="journal-entries">
+                            <!-- Journal entries will be listed here -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Profile Section -->
+            <section id="profile-section" class="hidden-section">
+                <div class="profile-container">
+                    <h2>나의 마음 성장 앨범</h2>
+                    <div class="profile-stats">
+                        <div class="stats-card">
+                            <h3>활동 배지</h3>
+                            <div class="badges-container" id="badges-container">
+                                <!-- Badges will be displayed here -->
+                                <div class="badge">
+                                    <img src="images/badge1.png" alt="스토리 탐험가 배지">
+                                    <p>스토리 탐험가</p>
+                                </div>
+                                <div class="badge locked">
+                                    <img src="images/badge2.png" alt="감정 마스터 배지">
+                                    <p>감정 마스터</p>
+                                </div>
+                                <div class="badge locked">
+                                    <img src="images/badge3.png" alt="생각 함정 탈출가 배지">
+                                    <p>생각 함정 탈출가</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stats-card">
+                            <h3>나의 생각 정원</h3>
+                            <div class="garden-container" id="thought-garden">
+                                <!-- Thought garden visualization will be here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-feedback">
+                        <h3>AI의 응원 메시지</h3>
+                        <div class="ai-message" id="profile-ai-message">
+                            <!-- AI encouragement will be shown here -->
+                            <p>아직 더 많은 활동을 해보면 자세한 응원 메시지를 받을 수 있을 거예요!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2023 마음 탐험대 - 사회정서교육 디지털 콘텐츠</p>
+        </footer>
+    </div>
+
+    <!-- AI 캐릭터 "마음이" -->
+    <div class="ai-character" id="ai-character">
+        <img src="images/ai-character.png" alt="마음이" id="ai-character-img">
+        <div class="ai-speech-bubble" id="ai-speech-bubble">
+            <p>안녕! 난 마음이야. 네 마음을 탐험하는 여정을 도와줄게!</p>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/story.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/journal.js"></script>
+    <script src="scripts/profile.js"></script>
+</body>
+</html> 

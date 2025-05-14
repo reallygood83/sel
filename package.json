@@ -1,0 +1,23 @@
+{
+  "name": "maeum-thaemdeung",
+  "version": "1.0.0",
+  "description": "마음 탐험대: 생각, 감정, 행동의 비밀을 찾아서 - 사회정서교육 디지털 콘텐츠",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo \"No build step required for static site\" && exit 0"
+  },
+  "keywords": [
+    "education",
+    "social-emotional",
+    "mind",
+    "thought",
+    "emotion",
+    "behavior"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+} 
